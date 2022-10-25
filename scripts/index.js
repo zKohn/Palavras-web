@@ -1,12 +1,11 @@
-const tecladoHTML = window.document.querySelectorAll('div.teclado_letra');
+import palavras5Letras from '../dados/palavras5Letras.json' assert {type: 'json'}
 
+const tecladoHTML = window.document.querySelectorAll('div.teclado_letra');
 var numLetras = 5;
-var todasPalavras = palavras5Letras;
+var todasPalavras = palavras5Letras.array;
 var palavra = todasPalavras[Math.floor(Math.random()*todasPalavras.length)];
 var linhaCorrente = 1;
 var letraSelecionada = 1;
-
-console.log(palavra);
 
 
 /*
