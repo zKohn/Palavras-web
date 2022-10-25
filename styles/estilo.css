@@ -190,14 +190,6 @@ div.teclado_letra.correta{
     100%{ transform: rotate3d(0,1,0,360deg); }
 }
 
-/* @keyframes giro360espacado{
-    0%{ transform: rotate3d(0,0,1,0deg) translateX(0px); }
-    30%{ transform: rotate3d(0,1,1,-5deg) translateX(4px) translateY(4px); }
-    50%{ transform: rotate3d(0,1,1,0deg) translateX(0px); }
-    70%{ transform: rotate3d(0,1,1,+5deg) translateX(-4px) translateY(4px); }
-    100%{ transform: rotate3d(0,0,1,0deg) translateX(0px);}
-} */
-
 @keyframes giro360espacado{
     0%{ transform: rotateZ(2deg) translateX(3px);  }
     25%{ transform: rotateZ(-2deg) translateX(-3px);}
